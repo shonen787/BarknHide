@@ -13,4 +13,14 @@ If you ever need to recover the bin data, just start reading from the privOffset
 ## Usage
 
 `BarknHide --input-woff <INPUT_WOFF> --output-woff <OUTPUT_WOFF> --bin-file-path <BIN_FILE_PATH>`
+
 ![Alt text](image.png)
+
+## Build
+
+To build the source, use cargo
+
+```
+cargo build --release #release mode
+cargo build #debug mode
+```
